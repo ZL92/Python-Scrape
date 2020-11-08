@@ -110,8 +110,8 @@ def start_kayak(city_from, city_to, date_start, date_end):
 #     if loading == weird:
 #         loading = 'Not sure'
 #
-#     username = 'lizhaolindarin@126.com'
-#     password = '87375956asd'
+#     username = 'xxxxxxxx@126.com'
+#     password = 'xxxxxxxx'
 #
 #     server = smtplib.SMTP('smtp.126.com', 587)
 #     server.ehlo()
@@ -121,9 +121,9 @@ def start_kayak(city_from, city_to, date_start, date_end):
 # Cheapest Flight: {}\nAverage Price: {}\n\nRecommendation: {}\n\nEnd of message'.format(matrix_min, matrix_avg,
 #                                                                                        (loading + '\n' + prediction)))
 #     message = MIMEMultipart()
-#     message['From'] = 'lizhaolindarin@126.com'
-#     message['to'] = 'zhaolin921023@gmail.com'
-#     server.sendmail('lizhaolindarin@126.com', 'zhaolin921023@gmail.com', msg)
+#     message['From'] = 'xxxxxxxx@126.com'
+#     message['to'] = 'xxxxxxxx@gmail.com'
+#     server.sendmail('xxxxxxxx@126.com', 'xxxxxxxx@gmail.com', msg)
 #     print('sent email.....')
 
 
